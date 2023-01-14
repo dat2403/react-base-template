@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <style>
+      @font-face {
+        font-family: 'regular';
+        src: local('regular'), url(./src/assets/fonts/Roboto-Regular.ttf) format('opentype');
+      }
+
+      @font-face {
+        font-family: 'medium';
+        src: local('medium'), url(./src/assets/fonts/Roboto-Medium.ttf) format('opentype');
+      }
+
+      @font-face {
+        font-family: 'bold';
+        src: local('bold'), url(./src/assets/fonts/Roboto-Bold.ttf) format('opentype');
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 62.5%;
+        text-rendering: optimizeSpeed;
+      }
+
+      body {
+
+        font-size: 1.6rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
